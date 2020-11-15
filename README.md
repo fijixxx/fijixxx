@@ -14,7 +14,7 @@
 ### 言語
 
 - JavaScript(Node.js, React, Next.js, Angular, Vue.js, Jest)
-- Python(Unittest)
+- Python3(Unittest)
 - PHP(5, 7, ZendFramework, Smarty, WordPress)
 - Java(8, Struts2, Tomcat)
 - Ruby(RubyOnRails4, Minitest)
