@@ -10,25 +10,28 @@
 
 ## スキル
 
+業務で使用経験のある技術に絞って記載しています
+
 ### 言語
 
-- JavaScript(TypeScript, Node.js, React, Next.js, Jest)
+- JavaScript(Node.js, Vue.js, Jest)
 - Python3(Unittest, Selenium)
-- PHP(5, 7, Smarty, WordPress)
+- PHP(5, 7, WordPress)
+- Ruby(Ruby on Rails4)
 - Shell(Bash, Zsh)
 - Vim
 
 ### DB
 
-- PostgreSQL, MySQL, DynamoDB
+- Aurora Serverless, PostgreSQL, MySQL, Oracle, DynamoDB
 
 ### クラウド
 
-- AWS(EC2, VPC, Route53, API Gateway, ECS, CodeCommit, CodePipeline, CodeBuild, CodeDeploy, S3, IAM, Cognito, Lambda, Cloud Formation, Cloud Watch, Cloud Trail)
+- AWS(EC2, VPC, API Gateway, CodePipeline, CodeBuild, S3, Cognito, Lambda, Cloud Formation, Cloud Watch)
 
 ### その他
 
-- Docker, GitLab, GitHub, Heroku, Apache, Nginx, Amazon Linux2, CentOS
+- Docker, Git, GitLab, Apache, Amazon Linux2, Red Hat Enterprise Linux
 
 ### 保有資格など
 
@@ -45,73 +48,4 @@
 
 ## 業務経歴書
 
-### サーバレス業務システム開発【JavaScript, Vue.js, Python, AWS】（2020）
-
-#### 案件概要:
-
-社会保険系法人様の業務システムの大幅刷新案件。運用プラットフォームの AWS 移行、サービスのサーバレス化、運用自動化を目指した開発作業
-
-#### 担当:
-
-プロトタイプ作成と同時に発足したテストチームにおいて、上記の観点を実現するテスト手法（自動化やコード化）や CI/CD 手法の PoC（概念実証）とテスト実施を担当
-
-#### 作業実績:
-
-- Selenium(Python)を使用した 結合テスト自動化/コード化/バージョン管理(Git, CodeCommit)の提案
-- Python のバックエンドコード(Lambda で動作)に対する 単体テスト自動化/モック化 の提案と、サンプルテストコード, サンプルプロジェクト(ディレクトリ構成や設定ファイルの雛形を配置)の提供
-- JavaScript(Vue.js)のフロントエンドコードに対する 単体テスト自動化/ モック化 手法の提案と、サンプルテストコード, サンプルプロジェクト(ディレクトリ構成や設定ファイルの雛形を配置)の提供
-- Gitブランチ運用(ブランチのデプロイライフサイクルなど)をテストチーム内外へ説明, 提案
-- CodePipeline を使用した CI/CD パイプラインのアーキテクチャ構成の提案と概念実証
-- SAM デプロイ(CloudFormation)用のテンプレートファイルや、リポジトリ内の StepFunctions スタックを再帰的に自動デプロイするスクリプトを作成
-- デプロイフローやテスト実施フローを考案し、ドキュメント整備
-- テストチームメンバーに対して、各種 AWS リソースの使用方法や確認方法のスキルトランスファー、およびドキュメント整備
-  - AWS CLI の使いかたや RDS Aurora, DynamoDB へのデータ投入方法など
-
-### 不動産情報サイト運営企業様の内部ツールの AWS 移行およびメインサイトのテスト故障対応【PHP, Java, AWS】（2020）
-
-#### 案件概要:
-
-お客様先となる不動産情報サイト運営企業様では稼働しているシステムのプラットフォームを AWS へ移行中だが、一部の社内ツールについては移行が積み残されている状況で、その 1 つについて AWS 移行およびシステムの最新化を行うことが決まった
-
-#### 担当:
-
-該当の社内ツールについて AWS 移行とシステムの最新化を担当。また、ツールの移行作業完了後はメインサイトの AWS 移行のテスト故障の調査と対応を担当した
-
-#### 作業実績:
-
-##### ツール移行【PHP, JavaScript, AWS】
-
-- オンプレ環境から抽出してきた PHP ソースコードを Amazon Linux2 へ移植
-- 動作する PHP のバージョンアップ要件があった(移植前の動作バージョンは PHP4)ので、PHP7.1 をインストールし、廃止関数などをリファクタリング
-- ツール内で発行される SQL 文について、移行後の環境に合わせてリファクタリング(Oracle から PostgreSQL へ)
-- 作業開始後、廃止されたDBを参照している処理が急遽見つかっため、代替としてAPIサーバーへGet処理を行うように機能修正
-- 全体的にバグが放置されていたので、フィックスして処理を高速化
-- 新規に監査用の操作ログをローカルに生成して永続化する要件があったので、新規にロギングサービスを開発して特定操作時にログ生成し、
-  Cron と Shell(AWS CLI) で S3 バケットに定時転送する処理を新規実装
-  - ユーザー管理用のDBを同居させる構成だったので、こちらについても自動でダンプを作成し S3 に定時バックアップするようにスクリプトを作成
-- 上記で作成したインスタンスを AMI 化し、本番環境で展開する手順書を作成
-- Puppeteer を使用して自動E2Eテストを実施(自動入力、自動操作、負荷試験)
-- CloudWatch Events ルール と Lambda(Python) による、スケジューリングされたインスタンス稼働を実装
-
-##### テスト故障対応【PHP, Java】
-
-- テスト故障の原因切り分けと対応を行った
-- Java で作成された API サーバーのバグフィックスや、Oracle から PostgreSQL への SQL 書き換えミスの対応
-
-### 業務 Web システム開発【OutSystems】（2019）
-
-#### 案件概要:
-
-建設会社様の次期システムの開発案件。現行システムでは Lotus Notes/ Domino を使用したクライアント/サーバー方式の業務システムが構築されているが、支店や部門ごとに個別にシステムが乱立しているという状態であったため、これらを 1 つのポータルサイトに集約した Web システムを構築し、業務の効率化と運用コストの削減を図る
-
-#### 担当:
-
-システム開発チームで開発を担当した。開発にはローコードプラットフォームである OutSystems を使用した
-
-#### 作業実績:
-
-- ローコードプラットフォームである OutSystems を使用した、GUI プログラミングによるシステム開発
-- 読み込み負荷の高い処理について、原因の SQL やロジックをリファクタリングし、パフォーマンスを改善
-  - 取得した配列に対して、さらに別で取得した配列をループして金額計算をさせていた(いわゆる O(n^2) の計算量オーダー)処理を、
-    DB内で集計関数を使用して処理するように修正した。
-- 一部の業務機能については、処理設計、画面設計、エンティティ設計を自分で行い、そのまま開発してリリース
+[長いのでこちらに分割しました](https://https://github.com/fijixxx/rejume)
