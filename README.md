@@ -2,10 +2,11 @@
 
 ## 概要
 
-- AWS 環境におけるエンジニアリング全般に強みがあります
+- パブリッククラウド（AWS, GCP） におけるエンジニアリング全般に強みがあります
   - AWS 認定 ソリューションアーキテクト - プロフェッショナル
   - AWS 認定 DevOps エンジニア - プロフェッショナル
-- 開発/アーキテクト設計/テスト と、一通り経験してきました
+  - Google Certified Professional - Cloud Architect
+- コーディングよりは、アーキテクト設計やCI/CD環境構築が得意です
 
 ## スキル
 
@@ -33,6 +34,7 @@
 
 #### AWS
 
+- Google Certified Professional - Cloud Architect
 - AWS 認定 ソリューションアーキテクト - プロフェッショナル
 - AWS 認定 DevOps エンジニア - プロフェッショナル
 - AWS 認定 ソリューションアーキテクト - アソシエイト
