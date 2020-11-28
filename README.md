@@ -48,4 +48,4 @@
 
 ## 業務経歴書
 
-[長いのでこちらに分割しました](https://https://github.com/fijixxx/rejume)
+[長いのでこちらに分割しました](https://github.com/fijixxx/rejume/blob/main/README.md)
