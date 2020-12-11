@@ -2,23 +2,25 @@
 
 ## 概要
 
-- パブリッククラウド（AWS, GCP） におけるエンジニアリング全般に強みがあります
+- パブリッククラウド（AWS, GCP） を活用したアプリケーションおよび CI/CD アーキテクチャー構築に強みがあります
+
   - AWS 認定 ソリューションアーキテクト - プロフェッショナル
   - AWS 認定 DevOps エンジニア - プロフェッショナル
   - Google Certified Professional - Cloud Architect
-- コーディングよりは、アーキテクト設計やCI/CD環境構築が得意です
+
+    - 具体的な作業としては、サーバーレスアーキテクチャ構築や、オンプレアプリケーションの AWS(EC2)移植など
+    - 個人プロジェクトして、S3 に静的ホスティングしたブログ(Next.js)を Github Actions と AWS Lambda で CI/CD 運用(自動ビルド/デプロイなど)しています。
+      - [sublog.yfijixxx](https://blog.yfijixxxrdp.com/)
 
 ## スキル
 
-業務で使用経験のある技術に絞って記載しています
-
 ### 言語
 
-- JavaScript(Node.js, Vue.js, Jest)
+- JavaScript(TypeScript, Next.js, Node.js, Vue.js, Jest)
 - Python3(Unittest, Selenium)
 - PHP(5, 7, WordPress)
 - Ruby(Ruby on Rails4)
-- Shell(Bash, Zsh)
+- Shell(Bash, Zsh, Fish)
 - Vim
 
 ### DB
@@ -48,4 +50,4 @@
 
 ## 業務経歴書
 
-[長いのでこちらに分割しました](https://github.com/fijixxx/rejume/blob/main/README.md)
+[長いのでこちらに分割しました](https://https://github.com/fijixxx/rejume)
