@@ -10,7 +10,7 @@
 
     - 具体的な作業としては、サーバーレスアーキテクチャ構築や、オンプレアプリケーションの AWS(EC2)移植など
     - 個人プロジェクトして、S3 に静的ホスティングしたブログ(Next.js)を Github Actions と AWS Lambda で CI/CD 運用(自動ビルド/デプロイなど)しています。
-      - [sublog.yfijixxx](https://blog.yfijixxxrdp.com/)
+      - [sublog.yfijixxx](https://github.com/fijixxx/sublog)
 
 ## スキル
 
