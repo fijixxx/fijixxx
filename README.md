@@ -1,3 +1,9 @@
+[](https://github.com/anuraghazra/github-readme-stats)
+![](https://github-readme-stats.vercel.app/api?username=fijixxx)
+
+[](https://github.com/anuraghazra/github-readme-stats)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=fijixxx)
+
 # プロフィール
 
 ## 概要
@@ -50,4 +56,4 @@
 
 ## 業務経歴書
 
-[長いのでこちらに分割しました](https://https://github.com/fijixxx/rejume)
+[長いのでこちらに分割しました](https://github.com/fijixxx/rejume)
