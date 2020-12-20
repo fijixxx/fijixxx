@@ -1,7 +1,5 @@
-[](https://github.com/anuraghazra/github-readme-stats)
 ![](https://github-readme-stats.vercel.app/api?username=fijixxx&count_private=true&show_icons=true)
 
-[](https://github.com/anuraghazra/github-readme-stats)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=fijixxx&count_private=true&show_icons=true)
 
 # プロフィール
