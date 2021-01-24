@@ -30,8 +30,9 @@
 
 ### 保有資格など
 
-#### AWS
+#### Certified
 
+- Microsoft Certified: Azure Solutions Architect Expert
 - Google Certified Professional - Cloud Architect
 - AWS 認定 ソリューションアーキテクト - プロフェッショナル
 - AWS 認定 DevOps エンジニア - プロフェッショナル
