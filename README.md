@@ -4,41 +4,29 @@
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=fijixxx&count_private=true&show_icons=true)
 
-# スキル
+## よく使うプログラミング言語
 
-### 言語
+- Golang
+- Python
+- HCL(terraform)
+- yaml(**-ci.yaml, k8s manifest)
 
-- JavaScript(TypeScript, Next.js, Node.js, Vue.js, Jest)
-- Python3(Unittest, Selenium)
-- PHP(5, 7, WordPress)
-- Ruby(Ruby on Rails4)
-- Shell(Bash, Zsh, Fish)
-- Vim
+## よく使うクラウドプラットフォーム
 
-### DB
+- AWS(IAM, EC2, Lambda, ECS, etc ...)
+- GCP(GKE, Cloud Run, etc...)
 
-- PostgreSQL, MySQL, Oracle, DynamoDB
+## その他
 
-### クラウド
+- Docker
 
-- AWS(CDK, Cloud Formation, EC2, VPC, API Gateway, CodePipeline, CodeBuild, Cognito, Lambda, SQS)
-- GCP(Cloud Run)
+## 保有資格など
 
-### その他
-
-- Docker, Git, GitLab, Apache, Amazon Linux2, Red Hat Enterprise Linux
-
-### 保有資格など
-
-#### Certified
-
-- Microsoft Certified: Azure Solutions Architect Expert
-- Google Certified Professional - Cloud Architect
-- AWS 認定 ソリューションアーキテクト - プロフェッショナル
-- AWS 認定 DevOps エンジニア - プロフェッショナル
-- AWS 認定 ソリューションアーキテクト - アソシエイト
-- AWS 認定 デベロッパー - アソシエイト
-- AWS 認定 SysOps アドミニストレーター - アソシエイト
+- Microsoft Certified: Azure Solutions Architect Expert(2021 - )
+- Google Certified Professional - Cloud Developer(2020 - 2022)
+- Google Certified Professional - Cloud Architect(2021 - )
+- AWS 認定 ソリューションアーキテクト - プロフェッショナル(2020 - )
+- AWS 認定 DevOps エンジニア - プロフェッショナル(2020 - )
 
 ## 業務経歴書
 
