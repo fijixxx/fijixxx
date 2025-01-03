@@ -22,11 +22,13 @@
 
 ## 保有資格など
 
+- 応用情報技術者試験 - 合格(2024)
+- Microsoft Certified: Azure AI Engineer Associate(2023 - )
 - Microsoft Certified: Azure Solutions Architect Expert(2021 - )
-- Google Certified Professional - Cloud Developer(2020 - 2022)
-- Google Certified Professional - Cloud Architect(2021 - )
 - AWS 認定 ソリューションアーキテクト - プロフェッショナル(2020 - )
 - AWS 認定 DevOps エンジニア - プロフェッショナル(2020 - )
+- Google Certified Professional - Cloud Architect(2021 - 2023)
+- Google Certified Professional - Cloud Developer(2020 - 2022)
 
 ## 業務経歴書
 
