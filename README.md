@@ -22,6 +22,7 @@
 
 ## 保有資格など
 
+- 全国乗馬倶楽部振興協会 乗馬技能認定 - 4 級(2024)
 - 応用情報技術者試験 - 合格(2024)
 - Microsoft Certified: Azure AI Engineer Associate(2023 - )
 - Microsoft Certified: Azure Solutions Architect Expert(2021 - )
